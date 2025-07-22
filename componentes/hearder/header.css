@@ -1,0 +1,17 @@
+.titulo2{
+font-size: 30px;
+   color: rgb(0, 255, 47);
+   padding: 10px;
+   display: flex;
+    align-items: center;
+}
+
+.divc {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 20rem;
+   
+}
+
