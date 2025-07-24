@@ -1,17 +1,16 @@
 function crearHeader() {
-
-    // Titulo del header
-
+    // Crear el header
     let header1 = document.createElement('header');
     header1.className = "titulo2";
     header1.innerText = "POLLO GARCIA";
 
-    // Div para el logo
-    
-    let div = document.createElement('div');
-    div.className = "divc";
+    // Crear la imagen
+    let img = document.createElement('img');
+    img.src = "asesst/logoGIT.png";  
+    img.className = "logo-img"; 
 
-    header1.appendChild(div); 
+    
+    header1.appendChild(img);
 
     return header1;
 }

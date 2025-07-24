@@ -6,20 +6,13 @@ font-size: 30px;
     
 }
 
-.divc {
-
-    padding: 4rem;
-    width: 3rem;
-    height: 3rem;
-    background-color: rgb(255, 3, 3);
-    border:  1px solid black;
-    border-radius: 5px;
-  
-    
-   
+.logo-img{
+    width: 8rem;
+    height: 8rem;
 }
 
 header{
+    border:  2px solid black;
     height: 10rem;
     background-color: rgb(249, 247, 251);
     padding:  0 2rem;
@@ -28,6 +21,7 @@ header{
     grid-template-columns: 1fr auto;
     align-items: center;
 }
+
 
 
 
