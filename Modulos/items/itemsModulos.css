@@ -1,6 +1,24 @@
 .item {
 
-    width: 20rem;
-    height: 20rem;
+    width: 30rem;
+    height: 30rem;
     background-color: #fa0707;
+}
+.title {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+}
+
+.img1 {
+    margin-top: 5px;
+    width: 150px;
+    margin-left: 2.3rem;
+}
+
+.text {
+    font-size: 13px;
+    margin-left: 5px;
+    color: rgb(0, 0, 0);
 }
