@@ -1,0 +1,14 @@
+.seccion-1{
+
+   display: grid;
+
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows:1fr 1fr;
+    gap:  2rem ;
+
+    margin-top: 2rem;
+   
+  justify-items: center;
+
+
+}
