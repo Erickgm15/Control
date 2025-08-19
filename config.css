@@ -10,3 +10,7 @@ html{
    font-size: 10px;
    font-family: 'Courier New', Courier, monospace;
 }
+
+.ocultar{
+    display: none;
+}

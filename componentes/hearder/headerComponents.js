@@ -2,6 +2,7 @@ function crearHeader() {
     
     // Crear el header
     let header1 = document.createElement('header');
+    header1.className = "header1";
     header1.className = "titulo2";
     header1.innerText = "POLLO GARCIA";
     

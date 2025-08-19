@@ -1,6 +1,26 @@
 .item {
 
-    width: 20rem;
-    height: 20rem;
-    background-color: #fa0707;
+    width: 40rem;
+    height: 40rem;
+    background-color: #494c4df6;
+   padding: 3rem;
+   border-radius: 3rem;
+   margin-left: 2rem;
+}
+
+.Verde{
+    background-color: rgb(3, 255, 3);
+}
+
+.item img {
+    max-width: 35%;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.Descripcion{
+    font-size: 1rem;
+    color: rgb(10, 0, 0);
+    margin-bottom: 2rem;
 }
