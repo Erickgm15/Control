@@ -1,0 +1,38 @@
+
+.menu {
+  display: flex;                
+  justify-content: center;       
+  gap: 40px;                    
+  align-items: center;           
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #111111;
+  border-radius: 10px;
+  width: 100%;       
+  box-sizing: border-box;      
+ 
+}
+
+
+.menu-item {
+  width: 60px;
+  height: 60px;
+  background-color: #011afa;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-item img {
+  width: 30px;
+  height: 30px;
+}
+
+.menu-item:hover {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  transform: scale(1.2);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}

@@ -9,7 +9,7 @@ function crearHeader() {
 
     // Crear la imagen
     let img = document.createElement('img');
-    img.src = "asesst/logoGIT.png";  
+    img.src = "assets/logoGIT.png";  
     img.className = "logo-img"; 
 
 

@@ -12,12 +12,13 @@ function seccion (){
    // Seccion 1
    seccion.appendChild(seccion1());
 
-   
 
 
 return seccion;
 
 }
 
+   
 document.body.appendChild(seccion());
+
 
