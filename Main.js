@@ -1,6 +1,7 @@
 import { crearHeader} from "./componentes/hearder/headerComponents.js"
 import { seccion1 } from "./Components/Seccion/seccionComponents.js";
 
+
 function seccion (){
 
    let seccion = document.createElement('section');

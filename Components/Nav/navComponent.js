@@ -27,7 +27,7 @@ export function nav() {
   helpImg.src = "assets/help.png";
   helpImg.alt = "help";
   helpDiv.appendChild(helpImg);
-  menu.appendChild(helpDiv);
+  menu.appendChild(helpDiv); 
 
   // Cart
   let cartDiv = document.createElement('div');

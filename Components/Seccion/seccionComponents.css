@@ -1,9 +1,10 @@
 .seccion-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr; 
   gap: 2rem;
-  margin-top: 2rem;
+  margin-top: 10rem;       /* 👈 este se encarga de separarse del menú */
   justify-items: center;
   padding-bottom: 100px; 
+  width: 100%;
+  box-sizing: border-box;
 }

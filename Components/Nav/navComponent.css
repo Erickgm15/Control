@@ -1,22 +1,23 @@
-
 .menu {
   display: flex;                
   justify-content: center;       
-  gap: 40px;                    
   align-items: center;           
-  margin-top: 20px;
-  padding: 10px 0;
+  gap: 40px;                    
+  
+  width: 304%;  
+  height: 150px;          
+  padding: 10px 0;        
+  
   background-color: #111111;
-  border-radius: 10px;
-  width: 100%;       
-  box-sizing: border-box;      
- 
+  border-radius: 0;      
+  box-sizing: border-box;
 }
 
 
-.menu-item {
-  width: 60px;
-  height: 60px;
+   
+.menu-item { 
+  width: 80px;
+  height: 80px;
   background-color: #011afa;
   border-radius: 50%;
   display: flex;
