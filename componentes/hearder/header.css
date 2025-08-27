@@ -23,7 +23,16 @@ header{
     align-items: center;
 }
 
+@media (max-width: 768px) {
+  .logo-img {
+    width: 4rem;
+    height: 4rem;
+  }
 
+  .titulo2 {
+    font-size: 18px;
+    text-align: center;
+  }}
 
 
 
