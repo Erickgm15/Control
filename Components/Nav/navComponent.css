@@ -38,6 +38,20 @@
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
+.item-count{
+
+  background-color: red;
+  width: 20px;
+  height:20px ;
+  border-radius: 100%;
+  font-size: 12px;
+
+display: flex;
+align-items: center;
+justify-self: center;
+color: white;
+
+}
 
 
 @media (max-width: 768px) {

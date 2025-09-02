@@ -1,3 +1,5 @@
+import{ guardarProducto, obtenerProductos } from '../../Control/miLocalStorage.js'
+
 export function nav() {
   let menu = document.createElement('div');
   menu.className = "menu";
@@ -36,6 +38,16 @@ export function nav() {
   cartImg.src = "assets/cart.png";
   cartImg.alt = "cart";
   cartDiv.appendChild(cartImg);
+
+  let divItem = document.createElement('div');
+  divItem.textContent = "";
+  divItem.className = "item-count";
+  
+  if(obtenerProductos()!=""){
+    cartDiv.appendChild(divItem);
+
+  }
+
   menu.appendChild(cartDiv);
 
   return menu; 

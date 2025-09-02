@@ -1,3 +1,4 @@
+import { guardarProducto } from '../../Control/miLocalStorage.js'
 export function item(titulo, price, description, category, urImg) {
 
     let item = document.createElement('div');
@@ -32,13 +33,16 @@ precioEl.className = "item-precio";
 precioEl.textContent = price;
 item.appendChild(precioEl);
 
-
     
     item.addEventListener('click', () => {
-        item.classList.add("Verde");
-        let rHeader1 = document.querySelector('.header1');
-         rHeader1.classList.add("ocultar");
+
+        guardarProducto("HOLA MUNDO ")
+        console.log("Producto en Local Storage" );
+        location.reload();
+
     });
 
+
+       
     return item;
 }
