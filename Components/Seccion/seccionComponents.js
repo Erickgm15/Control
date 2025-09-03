@@ -11,11 +11,13 @@ export function seccion1() {
     products.forEach(element => {
         seccion.appendChild(
             item(
+                element.id,
                 element.title,
                 element.price,
                 element.description,
                 element.category,
                 element.image
+              
             )
         );
     });
