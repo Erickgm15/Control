@@ -32,16 +32,24 @@ export function nav() {
   menu.appendChild(helpDiv); 
 
   // Cart
-  let cartDiv = document.createElement('div');
+  let cartDiv = document.createElement('a');
   cartDiv.className = "menu-item";
+  cartDiv.href = "Components/pages/carrito.html"
   let cartImg = document.createElement('img');
   cartImg.src = "assets/cart.png";
   cartImg.alt = "cart";
   cartDiv.appendChild(cartImg);
 
   let divItem = document.createElement('div');
-  divItem.textContent = "";
+
+  // cuanos elemtos ha en el carrito de compras
+  let totalCarrito = obtenerProductos();
+
+  divItem.textContent = totalCarrito.length;
+
   divItem.className = "item-count";
+
+ 
   
   if(obtenerProductos()!=""){
     cartDiv.appendChild(divItem);

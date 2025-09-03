@@ -1,4 +1,4 @@
-const  CARRITO  = 'lista_compras'
+const  CARRITO  = 'carrito'
 
 function guardarProducto(producto){
     localStorage.setItem(CARRITO,JSON.stringify(producto));
