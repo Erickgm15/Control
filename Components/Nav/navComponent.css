@@ -3,15 +3,21 @@
   justify-content: center;       
   align-items: center;           
   gap: 40px;                    
-  
-  width: 304%;  
-  height: 150px;          
+
+  width: 100%;         /* ocupa todo el ancho */
+  height: 80px;        /* ajusta según tu diseño */
   padding: 10px 0;        
-  
+
   background-color: #111111;
   border-radius: 0;      
   box-sizing: border-box;
+
+  position: fixed;      /* fijo en pantalla */
+  bottom: 0;            /* pegado a la parte inferior */
+  left: 0;              /* alineado al borde izquierdo */
+  z-index: 1000;        /* encima de otros elementos */
 }
+
 
 
    

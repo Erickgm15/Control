@@ -6,7 +6,7 @@ export function listaCarrito() {
 
     let recuperarProductos = obtenerProductos();
 
-    recuperarProductos.forEach(element => {
+    recuperarProductos.forEach((element ,index )=>{
         // div general para el producto
         let divProducto = document.createElement('div');
         divProducto.className = "producto";
@@ -36,7 +36,23 @@ export function listaCarrito() {
 
         // Añadir al section
         seccion.appendChild(divProducto);
-    });
+
+        let eleiminar = document.createElement('span');
+        eleiminar.className = "eliminar";
+        eleiminar.textContent = "X";
+       
+        
+        eleiminar.addEventListener('click', () => {
+            divProducto.remove();
+
+            let productos = obtenerProductos();
+            productos.splice(index, 1);
+            localStorage.setItem('carrito', JSON.stringify(productos));
+             });
+ divProducto.appendChild(eleiminar);
+   });
 
     return seccion;
+   
 }
+
